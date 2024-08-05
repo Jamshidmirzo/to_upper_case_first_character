@@ -15,12 +15,15 @@ void main() {
     });
 
     // Test to check if the string with the first character already uppercase returns the same string.
-    test('String with first character already uppercase should return same string', () {
+    test(
+        'String with first character already uppercase should return same string',
+        () {
       expect(toUpperCaseFirst('Hello'), 'Hello');
     });
 
     // Test to check if the string with a non-alphabetic first character returns the same string.
-    test('String with non-alphabetic first character should return same string', () {
+    test('String with non-alphabetic first character should return same string',
+        () {
       expect(toUpperCaseFirst('1hello'), '1hello');
     });
   });

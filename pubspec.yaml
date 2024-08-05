@@ -1,6 +1,6 @@
 name: to_upper_case
-description: descrption for personn who read a description.
-version: 1.0.1
+description: descrption for personn who read a description to convert a first charcater of your word.
+version: 1.0.2
 repository: https://github.com/Jamshidmirzo/to_upper_case_first_character
 homepage: https://jamshids-portfolio.netlify.app
 
