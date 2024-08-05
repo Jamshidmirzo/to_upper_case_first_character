@@ -1,6 +1,7 @@
-import 'package:to_upper_case/to_upper_case.dart';
+// example/main.dart
+import 'package:to_upper_case/src/to_upper_case.dart';
 
 void main() {
-  var awesome = ToUpperCaseBase();
-  print('awesome: ${awesome.isAwesome}');
+  var result = toUpperCaseFirst('hello');
+  print('Convert first character:$result'); // Hello
 }
